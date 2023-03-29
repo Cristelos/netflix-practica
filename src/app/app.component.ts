@@ -318,7 +318,7 @@ export class AppComponent {
   }
 
   topDiez: nextflixI ={
-    title: 'top 10',
+    title: 'Los 10 más populares hoy',
     gallery: [
       {
         src: "./assets/images/Top10/1-papel.webp",

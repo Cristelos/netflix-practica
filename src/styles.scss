@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #141414;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: white;
+}
+h3{
+    font-size: 1.3vw;
+    line-height: 1.25vw;
+    vertical-align: bottom;
+    text-transform: uppercase;
+    font-weight: 500;
+ }
+
+ img{
+    width: 217px;
+    margin-right: 12px;
+    cursor: pointer;
+ }
+
+ .pelis{
+    white-space: nowrap;
+    margin-bottom: 70px;
+    margin-left: 50px;
+ }
+
+ ul{
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: flex-end;
+ }
+
+ li{
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: flex-end;
+   margin-top: 0;
+ }
+
