@@ -226,55 +226,55 @@ export class AppComponent {
     gallery: [
       {
         src: "./assets/images/Sci-fi/6dia.webp",
-        alt: '',
+        alt: 'El 6º día',
       },
       {
         src: "./assets/images/Sci-fi/12monos.webp",
-        alt: '',
+        alt: '12 monos',
       },
       {
         src: "./assets/images/Sci-fi/afterearth.webp",
-        alt: '',
+        alt: 'After Earth',
       },
       {
         src: "./assets/images/Sci-fi/colverparadox.jpg",
-        alt: '',
+        alt: 'The Colverfield paradox',
       },
       {
         src: "./assets/images/Sci-fi/core.webp",
-        alt: '',
+        alt: 'El núcleo',
       },
       {
         src: "./assets/images/Sci-fi/deepimpact.webp",
-        alt: '',
+        alt: 'Deep impact',
       },
       {
         src: "./assets/images/Sci-fi/doom.webp",
-        alt: '',
+        alt: 'Doom',
       },
       {
         src: "./assets/images/Sci-fi/gits.webp",
-        alt: '',
+        alt: 'Ghosth in the shell',
       },
       {
         src: "./assets/images/Sci-fi/jumper.webp",
-        alt: '',
+        alt: 'Jumper',
       },
       {
         src: "./assets/images/Sci-fi/passengers.webp",
-        alt: '',
+        alt: 'Passengers',
       },
       {
         src: "./assets/images/Sci-fi/startrek.webp",
-        alt: '',
+        alt: 'Star trek',
       },
       {
         src: "./assets/images/Sci-fi/transformers.webp",
-        alt: '',
+        alt: 'Transformers',
       },
       {
         src: "./assets/images/Sci-fi/watchmen.webp",
-        alt: '',
+        alt: 'Watchmen',
       }
     ]
   }
@@ -283,8 +283,36 @@ export class AppComponent {
     title: 'terror',
     gallery: [
       {
-        src: '',
-        alt: '',
+        src: "./assets/images/Terror/apostol.jpg",
+        alt: 'El apostol',
+      },
+      {
+        src: "./assets/images/Terror/calleterror.jpg",
+        alt: 'La calle del terror',
+      },
+      {
+        src: "./assets/images/Terror/infiernoagua.webp",
+        alt: 'Infierno en el agua',
+      },
+      {
+        src: "./assets/images/Terror/insidious2.webp",
+        alt: 'Insidius 2',
+      },
+      {
+        src: "./assets/images/Terror/life.webp",
+        alt: 'Life',
+      },
+      {
+        src: "./assets/images/Terror/malasana.webp",
+        alt: 'Malasaña 32',
+      },
+      {
+        src: "./assets/images/Terror/multiple.webp",
+        alt: 'Múltiple',
+      },
+      {
+        src: "./assets/images/Terror/reflejos.webp",
+        alt: 'Reflejos',
       }
     ]
   }
@@ -293,9 +321,45 @@ export class AppComponent {
     title: 'top 10',
     gallery: [
       {
-        src: '',
-        alt: '',
-      }
+        src: "./assets/images/Top10/1-papel.webp",
+        alt: 'La casa de papel',
+      },
+      {
+        src: "./assets/images/Top10/2-reina.webp",
+        alt: 'La reina del Flow',
+      },
+      {
+        src: "./assets/images/Top10/3-titanes.webp",
+        alt: 'Titanes',
+      },
+      {
+        src: "./assets/images/Top10/4-lostinspace.webp",
+        alt: 'Lost in space',
+      },
+      {
+        src: "./assets/images/Top10/5-dondecaben.webp",
+        alt: 'Donde caben dos',
+      },
+      {
+        src: "./assets/images/Top10/6-aquinohay.webp",
+        alt: 'Aquí no hay quien viva',
+      },
+      {
+        src: "./assets/images/Top10/7-blacklist.webp",
+        alt: 'The black list',
+      },
+      {
+        src: "./assets/images/Top10/8-ricos.webp",
+        alt: 'Ricos y mimados',
+      },
+      {
+        src: "./assets/images/Top10/9-poder.webp",
+        alt: 'El poder del perro',
+      },
+      {
+        src: "./assets/images/Top10/10-gooddoctor.webp",
+        alt: 'The good doctor',
+      },
     ]
   }
 
