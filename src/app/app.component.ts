@@ -167,9 +167,57 @@ export class AppComponent {
     title: 'drama',
     gallery: [
       {
-        src: '',
-        alt: '',
-      }
+        src: "./assets/images/Drama/1917.webp",
+        alt: '1917',
+      },
+      {
+        src: "./assets/images/Drama/arrival.webp",
+        alt: 'La llegada',
+      },
+      {
+        src: "./assets/images/Drama/clublucha.webp",
+        alt: 'El club de la lucha',
+      },
+      {
+        src: "./assets/images/Drama/corazones.webp",
+        alt: 'Corazones de acero',
+      },
+      {
+        src: "./assets/images/Drama/culpable.jpg",
+        alt: 'Culpable',
+      },
+      {
+        src: "./assets/images/Drama/millaverde.webp",
+        alt: 'La milla verde',
+      },
+      {
+        src: "./assets/images/Drama/naufrago.webp",
+        alt: 'Naufrago',
+      },
+      {
+        src: "./assets/images/Drama/noespais.webp",
+        alt: 'No es pais para viejos',
+      },
+      {
+        src: "./assets/images/Drama/salvaralsoldado.webp",
+        alt: 'Salvar al soldado Ryan',
+      },
+      {
+        src: "./assets/images/Drama/scarface.webp",
+        alt: 'Scarface',
+      },
+      {
+        src: "./assets/images/Drama/schindler.webp",
+        alt: 'La lista de Schindler',
+      },
+      {
+        src: "./assets/images/Drama/sombradiablo.webp",
+        alt: 'La sombra del diablo',
+      },
+      {
+        src: "./assets/images/Drama/unicosuperviviente.webp",
+        alt: 'El único superviviente',
+      },
     ]
   }
 
@@ -177,7 +225,55 @@ export class AppComponent {
     title: 'sci-fi',
     gallery: [
       {
-        src: '',
+        src: "./assets/images/Sci-fi/6dia.webp",
+        alt: '',
+      },
+      {
+        src: "./assets/images/Sci-fi/12monos.webp",
+        alt: '',
+      },
+      {
+        src: "./assets/images/Sci-fi/afterearth.webp",
+        alt: '',
+      },
+      {
+        src: "./assets/images/Sci-fi/colverparadox.jpg",
+        alt: '',
+      },
+      {
+        src: "./assets/images/Sci-fi/core.webp",
+        alt: '',
+      },
+      {
+        src: "./assets/images/Sci-fi/deepimpact.webp",
+        alt: '',
+      },
+      {
+        src: "./assets/images/Sci-fi/doom.webp",
+        alt: '',
+      },
+      {
+        src: "./assets/images/Sci-fi/gits.webp",
+        alt: '',
+      },
+      {
+        src: "./assets/images/Sci-fi/jumper.webp",
+        alt: '',
+      },
+      {
+        src: "./assets/images/Sci-fi/passengers.webp",
+        alt: '',
+      },
+      {
+        src: "./assets/images/Sci-fi/startrek.webp",
+        alt: '',
+      },
+      {
+        src: "./assets/images/Sci-fi/transformers.webp",
+        alt: '',
+      },
+      {
+        src: "./assets/images/Sci-fi/watchmen.webp",
         alt: '',
       }
     ]
