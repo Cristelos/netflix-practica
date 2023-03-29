@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { nextflixI } from './../../models/netflix.interfaces';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-films',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./films.component.scss']
 })
 export class FilmsComponent {
+  @Input()  netflix!: nextflixI;
 
 }
