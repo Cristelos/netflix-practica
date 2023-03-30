@@ -1,4 +1,4 @@
-import { nextflixI } from './models/netflix.interfaces';
+import { nextflixI, ImageI } from './models/netflix.interfaces';
 import { Component } from '@angular/core';
 
 @Component({
@@ -321,45 +321,90 @@ export class AppComponent {
     title: 'Los 10 más populares hoy',
     gallery: [
       {
+        src: "./assets/images/Top10/1.png",
+        alt: 'Número uno',
+      },
+      {
         src: "./assets/images/Top10/1-papel.webp",
         alt: 'La casa de papel',
+      },
+      {
+        src: "./assets/images/Top10/2.png",
+        alt: 'Número dos',
       },
       {
         src: "./assets/images/Top10/2-reina.webp",
         alt: 'La reina del Flow',
       },
+
+      {
+        src: "./assets/images/Top10/3.png",
+        alt: 'Número tres',
+      },
       {
         src: "./assets/images/Top10/3-titanes.webp",
         alt: 'Titanes',
+      },
+
+      {
+        src: "./assets/images/Top10/4.png",
+        alt: 'Número cuatro',
       },
       {
         src: "./assets/images/Top10/4-lostinspace.webp",
         alt: 'Lost in space',
       },
+
+      {
+        src: "./assets/images/Top10/5.png",
+        alt: 'Número cinco',
+      },
       {
         src: "./assets/images/Top10/5-dondecaben.webp",
         alt: 'Donde caben dos',
       },
+
+      {
+        src: "./assets/images/Top10/6.png",
+        alt: 'Número seis',
+      },
       {
         src: "./assets/images/Top10/6-aquinohay.webp",
         alt: 'Aquí no hay quien viva',
+      },
+
+      {
+        src: "./assets/images/Top10/7.png",
+        alt: 'Número siete',
       },
       {
         src: "./assets/images/Top10/7-blacklist.webp",
         alt: 'The black list',
       },
       {
+        src: "./assets/images/Top10/8.png",
+        alt: 'Número ocho',
+      },
+      {
         src: "./assets/images/Top10/8-ricos.webp",
         alt: 'Ricos y mimados',
+      },
+      {
+        src: "./assets/images/Top10/9.png",
+        alt: 'Número nueve',
       },
       {
         src: "./assets/images/Top10/9-poder.webp",
         alt: 'El poder del perro',
       },
       {
+        src: "./assets/images/Top10/10.png",
+        alt: 'Número diez',
+      },
+      {
         src: "./assets/images/Top10/10-gooddoctor.webp",
         alt: 'The good doctor',
-      },
+      }
     ]
   }
 
