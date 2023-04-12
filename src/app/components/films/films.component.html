@@ -1,6 +1,8 @@
+<h3>{{netflix.title}}</h3>
 <div class="pelis">
-    <h3>{{netflix.title}}</h3>
-    <ng-container *ngFor="let item of netflix.gallery">
-        <app-film [film]="item"></app-film>
-    </ng-container>
+    <div class="pelis-item">
+        <ng-container *ngFor="let item of netflix.gallery">
+            <app-film [film]="item"></app-film>
+        </ng-container>
+    </div>
 </div>

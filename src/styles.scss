@@ -22,6 +22,13 @@ h3{
     white-space: nowrap;
     margin-bottom: 70px;
     margin-left: 50px;
+    overflow: auto;
+    display: flex;
+    scroll-snap-type: x mandatory;
+ }
+ .pelis-item{
+   flex-shrink: 0;
+   scroll-snap-align: start;
  }
 
  ul{
@@ -39,55 +46,44 @@ h3{
    cursor: pointer;
  }
 
- app-films.topdiez > div > app-film:nth-child(2) > img{
-   width: 236px !important;
-   margin-right: -81px;
+app-films.topdiez > div > div > app-film:nth-child(1) > img{
+   width: 316px !important;
+   margin-right: -96px;
 }
-app-films.topdiez > div > app-film:nth-child(4) > img {
-   width: 236px !important;
-   margin-right: -81px;
-   margin-left: -34px;
+app-films.topdiez > div > div > app-film:nth-child(3) > img{
+   width: 316px !important;
+   margin-right: -96px;
 }
-app-films.topdiez > div > app-film:nth-child(6) > img {
-   width: 236px !important;
-   margin-right: -81px;
-   margin-left: -34px;
+app-films.topdiez > div > div > app-film:nth-child(5) > img{
+   width: 316px !important;
+   margin-right: -96px;
 }
-app-films.topdiez > div > app-film:nth-child(8) > img {
-   width: 236px !important;
-   margin-right: -81px;
-   margin-left: -34px;
+app-films.topdiez > div > div > app-film:nth-child(7) > img{
+   width: 316px !important;
+   margin-right: -96px;
 }
-app-films.topdiez > div > app-film:nth-child(10) > img {
-   width: 236px !important;
-   margin-right: -81px;
-   margin-left: -34px;
+app-films.topdiez > div > div > app-film:nth-child(9) > img{
+   width: 316px !important;
+   margin-right: -96px;
 }
-app-films.topdiez > div > app-film:nth-child(12) > img {
-   width: 236px !important;
-   margin-right: -81px;
-   margin-left: -34px;
+app-films.topdiez > div > div > app-film:nth-child(11) > img{
+   width: 316px !important;
+   margin-right: -96px;
 }
-app-films.topdiez > div > app-film:nth-child(14) > img {
-   width: 236px !important;
-   margin-right: -81px;
-   margin-left: -34px;
+app-films.topdiez > div > div > app-film:nth-child(13) > img{
+   width: 316px !important;
+   margin-right: -96px;
 }
-app-films.topdiez > div > app-film:nth-child(16) > img {
-   width: 236px !important;
-   margin-right: -81px;
-   margin-left: -34px;
+app-films.topdiez > div > div > app-film:nth-child(15) > img{
+   width: 316px !important;
+   margin-right: -96px;
 }
-app-films.topdiez > div > app-film:nth-child(18) > img {
-   width: 236px !important;
-   margin-right: -81px;
-   margin-left: -34px;
+app-films.topdiez > div > div > app-film:nth-child(17) > img{
+   width: 316px !important;
+   margin-right: -96px;
 }
-app-films.topdiez > div > app-film:nth-child(20) > img {
-   width: 236px !important;
-   margin-right: -81px;
-   margin-left: -34px;
-}
-app-films.topdiez > div > app-film > img{
-   width: 155px; 
+
+app-films.topdiez > div > div > app-film:nth-child(19) > img{
+   width: 316px !important;
+   margin-right: -96px;
 }
